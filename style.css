@@ -1,0 +1,335 @@
+body{
+    margin: 0 auto;
+}
+#background-video{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: -1;
+    margin-top: 0;
+}
+#background_color{
+    background-color: rgba(0, 0, 255, 0.137);
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+    margin-top: 5em;
+    font-weight: lighter;
+}
+h1{
+    background: linear-gradient(to right,yellow,red, yellow,red,orange,yellow);
+    -webkit-background-clip: text;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 6.5em;
+    text-align: center;
+    margin-top: -0.5em;
+    color: transparent;
+    padding-bottom: 2.3em;
+}
+#content{
+    color: white;
+    width: 80%;
+    padding: 2em;
+    position: absolute;
+    font-size: 1.5em;
+    text-align: justify;
+    box-shadow: 0 0 30px 0 white, 0 6px 20px 0;
+    left: 6.5%;
+    margin-top: 3em;
+}
+p{
+    text-indent: 3em
+}
+h3{
+    color: orange;
+    font-family: cursive;
+}
+h4{
+    color: cyan;
+    font-family: cursive;
+}
+h5{
+    font-size: 0.9em;
+}
+#offer{
+    margin-top: 2em;
+    text-align: center;
+    font-weight: 900;
+    color: red;
+}
+table{
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    height: 17em;
+    margin: 0 auto;
+    margin-bottom: 3em;
+    border: 1px solid #ddd;
+    padding:1em;
+}
+td{
+    text-indent: 2em;
+    text-align: left;
+    padding: 0.5em;
+}
+tr:nth-child(even){
+    background-color: grey;
+}
+th{
+    color: cyan;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#Atlantis{
+    height: 337.5px;
+    widows: 270px;
+}
+#AtlantisHolder{
+    display: inline;
+    position: relative;
+    width: 270px; 
+    max-width: 15.35em;
+    float: left;
+    color: cyan;
+}
+#AtlantisHolder #AtlantisCaption{
+    font-size: 0.8em;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0,0.5);
+}
+.imgPara{
+    margin-top: 0;
+    text-indent: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+h4{
+    margin-top: 0.2em;
+    padding-left: 1em;
+    margin-bottom: 0.2em;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
+#ISS{
+    height: 337.5px;
+    widows: 270px;
+}
+#ISSHolder{
+    color: cyan;
+    position: relative;
+    width: 270px;
+    max-width: 15.35em;
+    float: right;
+}
+#ISSHolder #ISSCaption{
+    font-size: 0.8em; 
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0,0.5);
+}
+
+#Space{
+    height: 260px;
+    margin-top: 3.4em;
+    
+    margin-left: 2.5em;
+}
+#SpaceHolder{
+    color: cyan;
+    position: relative;
+    width: 240px; 
+    max-width: 15.35em;
+    margin: 0 auto;
+    
+}
+ #SpaceHolder #SpaceCaption{
+    font-size: 0.8em;
+    top: 0;
+    position: absolute;
+    background: rgba(0, 0, 0,0.5);
+}
+#SpacePara{
+    text-align: center;
+    margin: 1em;
+    text-indent: 0;
+}
+#selectedImg{
+    width: 45%;
+    height: 15em;
+    margin-bottom: 2em;
+    padding-left: 14em;
+}
+.images{
+    margin: 0 auto;
+    float: left;
+    width: 15%;
+    padding: 5px;
+    padding-bottom: 0;
+}
+.images img{
+    cursor: pointer;
+}
+.images img:hover{
+    opacity: 0.5;
+}
+
+#imageCaption{
+    position: absolute;
+    margin-top: -10em;
+    margin-left: 5%;
+}
+.galleryimgs{
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+#OpenButton {
+    position: fixed;
+    background-color: orange;
+    color: white;
+    border-radius: 4px;
+    padding: 16px 20px;
+    border: 3px solid orange;
+    cursor: pointer;
+    bottom: 1em;
+    margin-top: 0;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0.8em;
+  }
+  #OpenButton:hover{
+    background-color: white;
+    color: orange;
+    border-radius: 4px;
+    padding: 16px 20px;
+    border: 3px solid white;
+    cursor: pointer;
+    bottom: 1em;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .FormPopup {
+    color: black;
+    display: none;
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: 3%;
+  }
+  
+  
+  #FormContainer {
+    font-size: 0.7em;
+    width: 70%;
+    height: 33.5em;
+    background-color: white;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 4px; 
+    margin-bottom: 0.5em;
+    
+}
+
+  
+
+  
+  #FormContainer input[type=text]{
+    background-color: #ddd;
+    width: 95%;
+    margin: 1em 1em 1em 1em;
+    padding: 1em;
+    border: none;
+  }
+  
+  
+  #SubmitButton {
+    background-color: orange;
+    color: white;
+    padding: 1em;
+    border: 1px solid orange;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:1em;
+    border-radius: 4px;
+  }
+  
+  #SubmitButton:hover{
+    background: white; 
+    width: 100%;
+    border: 1px solid orange;
+    color: orange;
+    padding: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 1em;
+  }
+  
+ #CancelButton{
+    background-color: red;
+    width: 100%;
+    border: 1px solid red;
+    color: white;
+    padding: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 2em;
+  }
+  #CancelButton:hover{
+    background: white; 
+    width: 100%;
+    border: 1px solid red;
+    color: red;
+    padding: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 2em;
+  }
+  .AlertPopup{
+    width: 400px;
+    background-color: white;
+    display: none;
+    position: fixed;
+    bottom: 15em;
+    left: 35%;
+    border: 3px solid #f1f1f1;
+  }
+  #message {
+    padding: 10px;
+    background-color: white;
+  }
+  #AlertPara{
+      margin-top: 0;
+      text-indent: 2em;
+  }
+  #Close{
+      padding: 0.3em 2em;
+      border: 3px solid #f1f1f1;
+      border-radius: 4px;
+      margin-left: 12em;
+      margin-bottom: 1em;
+      cursor: pointer;
+  }
+  #Close:hover{
+      background-color: orange;
+      border: 3px solid orange;
+      color: white;
+  }
