@@ -5,7 +5,7 @@ $first = $last  = $email = $mobile = $ticket = '';
         $sql = "INSERT INTO registration (First, Last, Email, Mobile, Ticket) VALUES ('$_POST[first]', '$_POST[last]', '$_POST[email]', '$_POST[mobile]', '$_POST[ticket]')";
         if (mysqli_query($conn,$sql)) {
             sleep(15);
-            header("Location: index.php");
+            header("Location: index.html");
         } else {
             echo "Registered Failed";
         }       
